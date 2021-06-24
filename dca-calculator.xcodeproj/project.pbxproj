@@ -17,6 +17,7 @@
 		CE6DD6EC26851F17009997D4 /* dca_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DD6EB26851F17009997D4 /* dca_calculatorUITests.swift */; };
 		CE6DD6FB26851FD9009997D4 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = CE6DD6FA26851FD9009997D4 /* MBProgressHUD */; };
 		CE6DD6FE2685202B009997D4 /* Loaf in Frameworks */ = {isa = PBXBuildFile; productRef = CE6DD6FD2685202B009997D4 /* Loaf */; };
+		CE6DD70226853DB5009997D4 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DD70126853DB5009997D4 /* SearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CE6DD6E726851F17009997D4 /* dca-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dca-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6DD6EB26851F17009997D4 /* dca_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dca_calculatorUITests.swift; sourceTree = "<group>"; };
 		CE6DD6ED26851F17009997D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6DD70126853DB5009997D4 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,10 @@
 		CE6DD6C826851F13009997D4 /* dca-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CE6DD70026853D8D009997D4 /* controller */,
+				CE6DD6FF26853D83009997D4 /* view */,
 				CE6DD6C926851F13009997D4 /* AppDelegate.swift */,
 				CE6DD6CB26851F13009997D4 /* SceneDelegate.swift */,
-				CE6DD6CD26851F13009997D4 /* SearchTableViewController.swift */,
 				CE6DD6CF26851F13009997D4 /* Main.storyboard */,
 				CE6DD6D226851F17009997D4 /* Assets.xcassets */,
 				CE6DD6D426851F17009997D4 /* LaunchScreen.storyboard */,
@@ -130,6 +133,22 @@
 				CE6DD6ED26851F17009997D4 /* Info.plist */,
 			);
 			path = "dca-calculatorUITests";
+			sourceTree = "<group>";
+		};
+		CE6DD6FF26853D83009997D4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DD70126853DB5009997D4 /* SearchTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CE6DD70026853D8D009997D4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DD6CD26851F13009997D4 /* SearchTableViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6DD6CE26851F13009997D4 /* SearchTableViewController.swift in Sources */,
+				CE6DD70226853DB5009997D4 /* SearchTableViewCell.swift in Sources */,
 				CE6DD6CA26851F13009997D4 /* AppDelegate.swift in Sources */,
 				CE6DD6CC26851F13009997D4 /* SceneDelegate.swift in Sources */,
 			);
