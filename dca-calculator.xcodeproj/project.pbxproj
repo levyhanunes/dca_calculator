@@ -19,6 +19,7 @@
 		CE6DD6FE2685202B009997D4 /* Loaf in Frameworks */ = {isa = PBXBuildFile; productRef = CE6DD6FD2685202B009997D4 /* Loaf */; };
 		CE6DD70226853DB5009997D4 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DD70126853DB5009997D4 /* SearchTableViewCell.swift */; };
 		CE6DD705268553CA009997D4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DD704268553CA009997D4 /* APIService.swift */; };
+		CE6DD70826855737009997D4 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DD70726855737009997D4 /* SearchResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		CE6DD6ED26851F17009997D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6DD70126853DB5009997D4 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		CE6DD704268553CA009997D4 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CE6DD70726855737009997D4 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		CE6DD6C826851F13009997D4 /* dca-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CE6DD7062685572A009997D4 /* models */,
 				CE6DD703268553B1009997D4 /* service */,
 				CE6DD70026853D8D009997D4 /* controller */,
 				CE6DD6FF26853D83009997D4 /* view */,
@@ -160,6 +163,14 @@
 				CE6DD704268553CA009997D4 /* APIService.swift */,
 			);
 			path = service;
+			sourceTree = "<group>";
+		};
+		CE6DD7062685572A009997D4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				CE6DD70726855737009997D4 /* SearchResults.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 				CE6DD705268553CA009997D4 /* APIService.swift in Sources */,
 				CE6DD70226853DB5009997D4 /* SearchTableViewCell.swift in Sources */,
 				CE6DD6CA26851F13009997D4 /* AppDelegate.swift in Sources */,
+				CE6DD70826855737009997D4 /* SearchResults.swift in Sources */,
 				CE6DD6CC26851F13009997D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
